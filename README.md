@@ -4,7 +4,7 @@ Similar to [https://github.com/diegohaz/reuse](https://github.com/diegohaz/reuse
 
 ## Installation
 
-    $ yarn add @brabeji/styled-compose#0.0.1
+    $ yarn add brabeji/styled-compose#0.0.1
 
 ## Usage
 
