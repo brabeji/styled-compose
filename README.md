@@ -45,7 +45,6 @@ const Box = styled.div`
 const Rounding = styled.div`
 	border-radius: 5px;
 `;
-// ------------------------------------
 
 // Reset
 const Reset = styled.div`
