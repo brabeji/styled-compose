@@ -14,40 +14,32 @@ import styled from 'styled-components';
 import styledMap from 'styled-map';
 import compose from '@brabeji/styled-compose';
 
-
 // ButtonColors
 const buttonBackground = styledMap`
-default: #ccc;
-primary: blue;
-secondary: green;
-tertiary: yellow;
+	default: #ccc;
+	primary: blue;
+	secondary: green;
+	tertiary: yellow;
 `;
 const ButtonColors = styled.div`
 	background: ${buttonBackground};
 `;
-// ------------------------------------
 
 // Box
 const boxSize = styledMap`
-default: 100%;
-small: 70%;
-large: 130%;
+	default: 100%;
+	small: 70%;
+	large: 130%;
 `;
-const boxPaddingV = styledMap`
-default: 15px;
-small: 10px;
-large: 20px;
-`;
-const boxPaddingH = styledMap`
-default: 30px;
-small: 20px;
-large: 35px;
+const boxPadding = styledMap`
+	default: 15px 30px;
+	small: 10px 20px;
+	large: 20px 23px;
 `;
 const Box = styled.div`
 	font-size: ${boxSize};
-	padding: ${boxPaddingV} ${boxPaddingH};
+	padding: ${boxPadding};
 `;
-// ------------------------------------
 
 // Rounding
 const Rounding = styled.div`
@@ -62,8 +54,8 @@ const Reset = styled.div`
 	margin: 0;
 	padding: 0;
 `;
-// ------------------------------------
 
+// actual Button
 const Button = compose(
 	'button',
 	Reset,
