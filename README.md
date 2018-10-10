@@ -1,6 +1,6 @@
 # `@brabeji/styled-compose`
 
-> DO NOT USE YET! This helper might change a lot
+> DO NOT USE YET! This helper may change a lot
 
 Similar to [https://github.com/diegohaz/reuse](https://github.com/diegohaz/reuse) but aware of styled-components@4 component extension mechanism.
 
