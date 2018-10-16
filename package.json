@@ -1,6 +1,6 @@
 {
   "name": "@brabeji/styled-compose",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "build/index.js",
   "license": "MIT",
   "scripts": {
@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@neutrinojs/library": "^8.3.0",
+    "@usertech/neutrino-preset-eslint-prettier": "usertech/neutrino-preset-eslint-prettier#0.0.6",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.6.1",
     "eslint-config-prettier": "^3.1.0",
@@ -19,9 +20,7 @@
     "neutrino": "^8.3.0",
     "prettier": "^1.14.3"
   },
-  "dependencies": {
-    "@usertech/neutrino-preset-eslint-prettier": "usertech/neutrino-preset-eslint-prettier#0.0.6"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "styled-components": "4.0.0-beta.11"
   }
